@@ -69,6 +69,61 @@ body{
     text-decoration-color: balck;
 }
 
+.dropdown{
+    height: 65px;
+    margin-top: 33px;
+    margin-left: 30px;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 215px;
+    padding: 20px;
+    border-radius: 14px;
+    position: absolute;
+    top: 60px;
+    display: none;
+    margin-top: 10px;
+}
+
+.dropbox{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.dropdown:hover .container{
+    display: block;
+}
+.container > p:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.sprnt{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #333333;
+    margin: 0px;
+}
+.audio{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #828282;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
 #sec1_div1 > img{
     width: 7px;
     height: 3px;
@@ -174,6 +229,8 @@ hr{
 .hat{
     margin-left: 22px;
     margin-right: 12px;
+    width: 28px;
+    height: 24px;
 }
 
 .text1{
@@ -184,6 +241,7 @@ hr{
     line-height: 100%;
     letter-spacing: -0.04em;
     color: #757575;
+    margin-top: 0px;
 }
 
 .vl2{
@@ -194,7 +252,11 @@ hr{
 
 .book{
     margin-left: 21px;
+    width: 30px;
+    height: 25px;
+    filter: invert(75%) sepia(11%) saturate(6%) hue-rotate(90deg) brightness(98%) contrast(90%);
 }
+
 
 .text2{
     font-family: 'Dela Gothic One';
@@ -203,10 +265,20 @@ hr{
     font-size: 26px;
     line-height: 100%;
     letter-spacing: -0.04em;
-    color: #000000;
+    color: #757575;
     margin-left: 11px;
+    margin-top: 0px;
 }
 
+.txtbook{
+    display: flex;
+    height: 27px;
+}
+.txtbook:hover{
+    cursor: pointer;
+    color: #000000;
+    filter: invert(0%) sepia(8%) saturate(100%) hue-rotate(123deg) brightness(0%) contrast(107%);
+}
 .sec2_div2{
     display: flex;
     align-items: center;
@@ -453,7 +525,7 @@ hr{
     margin-top: 40px;
 }
 
-span{
+strong{
     font-family: 'Dela Gothic One';
     font-style: normal;
     font-weight: 400;
