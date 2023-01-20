@@ -102,6 +102,7 @@ body{
 .container > p:hover{
     text-decoration: underline;
     color: #000000;
+    cursor: pointer;
 }
 
 .sprnt{
